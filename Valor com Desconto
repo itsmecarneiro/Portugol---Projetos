@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real desconto, produto
+
+		escreva("Qual o valor do produto?: ")
+		leia(produto)
+
+		se (produto > 100){
+			desconto = produto - (produto*0.10)
+			
+			escreva("O valor original do produto o é: R$ ", produto)
+			escreva(" O valor com desconto (10%) é: R$ ", desconto)
+		}
+		senao {
+			escreva("O valor original do produto é: R$ ", produto)
+			escreva("O valor não tem desconto.")
+		}
+	}
+}
