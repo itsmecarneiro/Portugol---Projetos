@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real lado, altura, area
+
+		escreva("Informe a base: ")
+		leia(lado)
+		escreva("Informe a altura: ")
+		leia(altura)
+
+		area = (lado*altura) / 2
+		escreva("A área do triangulo é: ", area)
+	
+	}
+}
