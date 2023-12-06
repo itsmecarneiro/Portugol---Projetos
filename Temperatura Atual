@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+        	real temperatura
+
+  	 	escreva("Digite a temperatura atual: ")
+    		leia(temperatura)
+
+    		se (temperatura <15.0) {
+        		escreva("Frio!")
+    		}
+   		senao se (temperatura >= 15.0 e temperatura <= 25.0) {
+          		escreva("Agradável!")
+        	}
+        	senao {
+         		escreva("Quente!")
+        	}
+
+	}
+}
