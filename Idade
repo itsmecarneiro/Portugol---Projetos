@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro atual
+		inteiro nascimento
+		inteiro idade
+
+		escreva("Digite o ano atual: ")
+		leia(atual)
+		escreva("Digite o ano de nascimento: ")
+		leia(nascimento)
+
+		idade = atual - nascimento
+		escreva("Sua idade atual é: ", idade)
+	}
+}
