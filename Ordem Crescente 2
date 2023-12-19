@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor1, valor2
+
+		escreva("Digite o primeiro valor: ")
+		leia(valor1)
+
+		escreva("Digite o segundo valor: ")
+		leia(valor2)
+
+		se (valor1 < valor2){
+			escreva("A ordem é: ", valor1, ",", valor2)
+		}
+		
+		senao{ 
+			escreva("A ordem é: ", valor2, ",", valor1)
+		}
+	}
+}
