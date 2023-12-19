@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro valor, soma
+
+      valor = 0
+      soma = 0
+
+      para(inteiro i = 1; i <= 5; i++) {
+         leia(valor)
+         soma = soma + valor
+      }
+
+      escreva("A soma é: ", soma)
+      
+	}
+}
