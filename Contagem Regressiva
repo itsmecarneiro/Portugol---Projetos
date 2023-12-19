@@ -1,0 +1,10 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		para (inteiro valor = 10; valor > 0; valor--){
+			escreva(valor, "\n")
+		}
+	}
+}
