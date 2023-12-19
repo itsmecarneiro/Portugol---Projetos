@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+{
+	
+       real meuDinheiro
+       real troco
+       real precoPaoUnidade
+       logico compraChocolate
+
+       meuDinheiro = 10.0
+
+       compraChocolate = falso ou verdadeiro
+
+       escreva ("Informe o valor do pão: ")
+       leia(precoPaoUnidade)
+
+       troco = meuDinheiro - (10*precoPaoUnidade)
+
+       se (troco > 0) {
+           compraChocolate = verdadeiro
+
+           escreva("Vai ser possível comprar chocolate!")
+       }
+
+       senao {
+       	escreva("Não vai ser possível comprar chocolate!")
+       }
+         
+	}
+}
