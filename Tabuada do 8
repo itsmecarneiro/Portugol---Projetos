@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero = 8, resultado
+
+		para(inteiro i = 0; i<=10; i++) {
+			resultado = numero * i
+			escreva(numero + " x " + i + " = " + resultado + "\n")
+		}
+	}
+}
